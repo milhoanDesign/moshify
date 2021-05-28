@@ -1,0 +1,6 @@
+{
+    "gitProjectManager.displayProjectPath": true,
+    "gitProjectManager.openInNewWindow": true,
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
+    "gitProjectManager.warnIfFolderNotFound": true
+}
