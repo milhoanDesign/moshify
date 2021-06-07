@@ -350,11 +350,19 @@ a {
   color: #fff;
 }
 
-.card--secondary .card__header {
-  background: #01bfe1;
+.card--primary .badge--primary {
+  background: #126de4;
+}
+
+.card--secondary .badge--secondary {
+  background: #02cdf1;
 }
 
 /* --- Plan Components --- */
+
+.plan {
+  transition: transform 0.2s ease-out;
+}
 
 .plan__name {
   color: #fff;
@@ -414,6 +422,18 @@ a {
 
   .plan__descripton {
     font-size: 1.6rem;
+  }
+
+  .plan--popular {
+    transform: scale(1.1);
+  }
+
+  .plan:hover {
+    transform: scale(1.05);
+  }
+
+  .plan--popular:hover {
+    transform: scale(1.15);
   }
 }
 
@@ -503,6 +523,12 @@ blockquote {
 @media screen and (min-width: 768px) {
   .grid--1x2 {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid--1x3 {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -762,4 +788,15 @@ blockquote {
   .block-domain__prices {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
+}
+
+/* --- Plans Block --- */
+
+.block-plans .grid {
+  gap: 4rem;
+}
+
+.block-plans .card {
+  max-width: 500px;
+  margin: 0 auto;
 }
