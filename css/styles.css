@@ -800,3 +800,31 @@ blockquote {
   max-width: 500px;
   margin: 0 auto;
 }
+
+/* --- Features --- */
+
+.feature {
+  gap: 4rem 8rem;
+  margin: 8rem auto;
+  max-width: 80%;
+}
+
+.feature__content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feature__image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feature__heading {
+  margin-top: 1.5rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(even) .feature__content {
+    order: 2;
+  }
+}
