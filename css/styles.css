@@ -27,7 +27,7 @@ body {
 /* ---- Typography ---- */
 ::selection {
   background: var(--color-primary);
-  color: #fff; 
+  color: #fff;
 }
 
 html {
@@ -447,7 +447,7 @@ a {
 
 .media {
   display: flex;
-  margin-bottom: 4rem; 
+  margin-bottom: 4rem;
 }
 
 .media__title {
@@ -655,6 +655,8 @@ blockquote {
 
 .block__header {
   text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .block__heading {
@@ -847,7 +849,6 @@ blockquote {
   }
 
   .block-showcase__image {
-     
     justify-self: end;
   }
 
